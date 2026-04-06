@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd value-bi-app && npm run build",
+  "outputDirectory": "value-bi-app/.next",
+  "framework": "nextjs"
+}
