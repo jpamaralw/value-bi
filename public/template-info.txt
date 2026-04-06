@@ -1,0 +1,47 @@
+TEMPLATE DE PLANILHA PARA IMPORTAÇÃO — VALUE BI
+================================================
+
+O arquivo .xlsx deve ter as seguintes abas:
+
+1. Config (opcional)
+   - Linha com "Empresa" na coluna A e o nome do cliente na coluna B
+
+2. Receitas
+   - Coluna A: Nome da categoria (ex: "Empresa", "Empresa Service", "Data Empresa")
+   - Colunas B-M: Valores mensais (Jan a Dez)
+   - Use uma linha com apenas o ano (ex: "2024" ou "2025") para separar anos
+   - Use prefixo "Previsto" para valores previstos (ex: "Previsto Empresa")
+
+3. Custos
+   - Mesma estrutura de Receitas
+   - Categorias: Impostos, Comissões, Custos Diretos, etc.
+
+4. Despesas
+   - Mesma estrutura
+   - Categorias: Pessoal, Ocupação, Administrativas, Marketing, Tecnologia
+
+5. Investimentos
+   - Mesma estrutura
+   - Categorias: Equipamentos, Desenvolvimento, Capacitação
+
+6. Entradas (opcional)
+   - Entradas não operacionais
+
+7. Saidas (opcional)
+   - Saídas não operacionais
+
+8. Centros de Custo (opcional)
+   - Coluna A: Nome do centro (ex: "CC01 Diretoria")
+   - Colunas B-M: Valores mensais
+
+EXEMPLO DE LAYOUT (aba Receitas):
+---------------------------------
+| Categoria        | Jan    | Fev    | Mar    | ... | Dez    |
+|-----------------|--------|--------|--------|-----|--------|
+| 2024            |        |        |        |     |        |
+| Empresa         | 180000 | 175000 | 195000 | ... | 280000 |
+| Empresa Service | 95000  | 92000  | 100000 | ... | 145000 |
+| 2025            |        |        |        |     |        |
+| Empresa         | 195000 | 190000 | 212000 | ... | 310000 |
+| Empresa Service | 105000 | 102000 | 112000 | ... | 160000 |
+| Previsto Empresa| 190000 | 185000 | 205000 | ... | 300000 |
